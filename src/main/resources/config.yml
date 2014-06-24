@@ -1,0 +1,28 @@
+general:
+    taxiName: '%s''s taxi'
+    item:
+        material: COMPASS
+        name: '&2Taxi'
+        description:
+
+        - 'Use this item to call your taxi.'
+        recipe:
+            type: SHAPED
+            layout: [xxx,xyx,xxx]
+            ingredients:
+                x: STONE
+                y: DIAMOND
+destinations:
+- world: World
+  destinations:
+  - x: 0
+    z: 0
+    icon: STONE
+    name: '&5Park'
+    permission: personaltaxi.access.destination.park
+- world: World
+  destinations:
+  - x: 0
+    z: 0
+    icon: STONE_SWORD
+    name: Park

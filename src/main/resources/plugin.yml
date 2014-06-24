@@ -1,0 +1,10 @@
+name: PersonalTaxi
+version: 0.0.1
+description: Your own private living taxi.
+author: maciekmm
+main: net.maciekmm.personalTaxi.PersonalTaxi
+commands:
+  ptreload:
+    description: Reloads PersonalTaxi plugin
+    usage: /<command> - reloads plugin
+    permission: personaltaxi.reload
